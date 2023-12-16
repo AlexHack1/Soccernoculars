@@ -275,7 +275,7 @@ lg_yr = scrape_league(leagues_dict[pick_league],year)
 get_players(lg_yr,threesixfive,year)
 
 # transpose back to normalcy
-pd.read_csv(r'C:\Users\Alexander Hack\Documents\Soccernoculars\It_worked4.csv',sep= '\t',header=None,engine='python').T.to_csv(r'C:\Users\Alexander Hack\Documents\Soccernoculars\It_worked4.csv', sep= '\t', header=False, index=False,engine='python')
+pd.read_csv(r'<file path>',sep= '\t',header=None,engine='python').T.to_csv(r'<file path>', sep= '\t', header=False, index=False,engine='python')
 
 # get_players('https://fbref.com/en/comps/10/2021-2022/2021-2022-Championship-Stats')
 # extract_players('https://fbref.com/en/comps/9/2022-2023/stats/2022-2023-Premier-League-Stats','FW','n','2022-2023',mega_list)
@@ -286,6 +286,6 @@ pd.read_csv(r'C:\Users\Alexander Hack\Documents\Soccernoculars\It_worked4.csv',s
 # for i in range(len(mega_list)):
 #     mega_frame[i] = mega_list[i]
 
-# mega_frame.to_csv(r'C:\Users\Alexander Hack\Documents\Soccernoculars\It_worked.csv',mode='a', sep= '\t',encoding='utf8')
+# mega_frame.to_csv(r'<file path>',mode='a', sep= '\t',encoding='utf8')
 
 # If want to stop writing and resume another time, read file, transpose, then append --> at end read transpose close
