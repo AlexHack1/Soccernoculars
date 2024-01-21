@@ -37,3 +37,5 @@ Player data will be read in to the csv file one team at a time since the script 
 After all players have been added, you will be prompted to transpose the dataset.
 
 That's it!
+
+Contact me at alexanderjwh@gmail.com if you find bugs.
