@@ -4,7 +4,7 @@ The script lets you select a year, league, and position and it will put together
 The stats 
 It works with 10 major leagues, going back at least as far as 2017-2018.
 
-![title](https://github.com/AlexHack1/Soccernoculars/tree/main/Images/title spreadsheet.png?raw=true)
+![title](https://github.com/AlexHack1/Soccernoculars/tree/main/Images/title_spreadsheet.png?raw=true)
 
 ## 1) Install Python Packages
 Open your windows command window and type the following to pip install the necessary packages to run the script. Do one at a time.
