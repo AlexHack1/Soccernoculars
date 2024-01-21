@@ -26,7 +26,7 @@ Create a csv file to save the dataset to. Copy the file path for the next step.
 
 ![create CSV](https://github.com/AlexHack1/Soccernoculars/blob/main/Images/save_to_csv.png?raw=true)
 
-## 3) Run the Script
+## 3) Run the Python Script
 Run the script in the command window or an IDE and follow the prompts. Make sure the csv file that you created is not open while the script is running.
 
 ![Run](https://github.com/AlexHack1/Soccernoculars/blob/main/Images/read_in_players.png?raw=true)
