@@ -1,7 +1,7 @@
 # Soccernoculars
 This program scrapes FBREF with BS4 in Python to create a dataset of players for scouting and data analysis.
 The script lets you select a year, league, and position and it will put together a generous set of stats based on position from which you can conduct further data analysis.
-The stats 
+The stats are picked with player data scouting with in mind to identify unknown or up and coming talent.
 It works with 10 major leagues, going back at least as far as 2017-2018.
 
 ![title](https://github.com/AlexHack1/Soccernoculars/blob/main/Images/title_spreadsheet.png?raw=true)
@@ -44,4 +44,4 @@ After all players have been added, you will be prompted to transpose the dataset
 Now open the CSV file and check the results.
 ![results](https://github.com/AlexHack1/Soccernoculars/blob/main/Images/script_test.png?raw=true)
 
-Contact me at alexanderjwh@gmail.com if you find bugs or have issues with the prorgram
+Contact me at alexanderjwh@gmail.com if you find bugs or have issues with the program.
