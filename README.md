@@ -20,12 +20,12 @@ pip install html5lib
 Pip should be installed with python, but if it isn't, follow instructions at [pip.pypa.io](https://pip.pypa.io/en/stable/installation/) to install.
 
 ## 2) Create a CSV File
-Create a csv file to save the dataset to. Copy the file path for the next step
+Create a csv file to save the dataset to. Copy the file path for the next step.
 
 ** image 
 
 ## 3) Run the Script
-Run the script in the command window or an IDE and follow the prompts. Make sure the csv file that you created is not open while the script is running
+Run the script in the command window or an IDE and follow the prompts. Make sure the csv file that you created is not open while the script is running.
 
 ** image
 
