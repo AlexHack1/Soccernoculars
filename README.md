@@ -37,7 +37,7 @@ After following the prompts, player names should start appearing in the command 
 
 Player data will be read in to the csv file one team at a time since the script can take quite a while to get through all of the teams in a league. If you would like to create multi-league datasets, you can run the script with the same file path as new players will be appended to the file and not overwritten. 
 
-After all players have been added, you will be prompted to transpose the dataset so that players' features occupy columns instead of rows. If you prefer this orientation, you can press "y" here.
+After all players have been added, you will be prompted to transpose the dataset so that players' features occupy columns instead of rows. If you prefer this orientation, you can type "y" here.
 ![transpose](https://github.com/AlexHack1/Soccernoculars/blob/main/Images/transpose.png?raw=true)
 
 
