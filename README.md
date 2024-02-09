@@ -33,6 +33,8 @@ Run the script in the command window or an IDE and follow the prompts. Make sure
 
 If you are not looking at data from the past 365 days, the script will collect player data from all of the competitions in the year that you selected. For the example shown above, Bukayo Saka competed in the Premier League AND the Europa League in the 2020-2021 season. The stats from these seasons will be weighted by their minutes and added to form one vector for the player in the final spreadsheet.
 
+I chose to build the script this way because the large player data tables for each league are written in JavaScript, not HTML meaning that their FBREF pages would have to be opened in an automated browser like Selenium. For simplicity reasons, I chose not to do this.
+
 After following the prompts, player names should start appearing in the command window every few seconds. Multiple seconds elapse between player names because FBREF's webscraping policy is that requests cannot be made more frequently than every four seconds. DO NOT change this duration in the script.
 
 Player data will be read in to the csv file one team at a time since the script can take quite a while to get through all of the teams in a league. If you would like to create multi-league datasets, you can run the script with the same file path as new players will be appended to the file and not overwritten. 
